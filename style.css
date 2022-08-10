@@ -359,6 +359,25 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+.staggered_demo h3{
+  position: relative;
+  display: inline-block;
+  box-shadow: 10px 0 0 red;
+  animation:  textTyping 5s steps(12) infinite;
+  overflow: hidden;
+  color: red;
+}
+@keyframes textTyping {
+  0%,90%,100%{
+    width: 0px;
+    box-shadow: 0;
+    height: 100px;
+  }
+  30%,60%{
+    width: 600px;
+    height: 100px;
+  }
+}
 
 .parallax-slab {
   position: relative;
