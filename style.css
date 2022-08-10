@@ -263,6 +263,28 @@ h3 {
   grid-column: 2/span 1;
   grid-row: 2;
 }
+.image_cont {
+  --hoverContorno: red;
+}
+
+.image_cont:hover,
+.image_cont:focus {
+  -webkit-animation: cardAnimacion 1s;
+  animation: cardAnimacion 1s infinite;
+  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes cardAnimacion {
+  0% {
+    box-shadow: 0 0 0 0 var(--hoverContorno);
+  }
+}
+
+@keyframes cardAnimacion {
+  0% {
+    box-shadow: 0 0 0 0 var(--hoverContorno);
+  }
+}
 
 @media only screen and (max-width: 700px) {
   .parallax-images{
