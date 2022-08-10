@@ -362,7 +362,6 @@ h3 {
 .staggered_demo h3{
   position: relative;
   display: inline-block;
-  box-shadow: 10px 0 0 red;
   animation:  textTyping 5s steps(12) infinite;
   overflow: hidden;
   color: red;
