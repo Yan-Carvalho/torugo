@@ -239,14 +239,14 @@ h3 {
 }
 .parallax-images .image_cont {
   position: relative;
-  height: 80vh;
+  height: 90vh;
   overflow: hidden;
 }
 .parallax-images img {
   position: absolute;
   bottom: 0;
   margin: 0 auto;
-  height: 140%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
