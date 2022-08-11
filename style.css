@@ -101,7 +101,7 @@ p {
 }
 .heading {
   position: absolute;
-  top: 50vh;
+  top: 25vh;
   left: 50%;
   transform: translateX(-50%);
   opacity: 1;
