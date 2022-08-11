@@ -526,6 +526,9 @@ h3 {
       height: 40px;
     }
   }
+  .heading {
+    top: 40vh;
+  }
 }
 @media only screen and (max-width: 440px) {
   @keyframes textTyping {
