@@ -137,6 +137,11 @@ h1 .eyebrow {
 .heading p#torugo{
   -webkit-text-stroke-color: red;
 }
+.heading p#lilith{
+  animation: neon 5s infinite;
+  color: #FFF;
+
+}
 
 .intro,
 h2,
@@ -145,23 +150,6 @@ h3 {
   font-weight: 500;
 }
 
-.text-container {
-  position: relative;
-}
-
-.text-container p {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  color: transparent;
-  line-height: 0.5;
-}
-.text-container p#lilith{
-  animation: neon 5s infinite;
-
-}
 @keyframes neon {
   0%, 39%, 41%, 59%, 61%, 62%,64%, 100%{
       text-shadow: 
