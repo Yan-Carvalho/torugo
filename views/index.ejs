@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <title>Torugo's</title>
+</head>
+<body>
+  <div id="wrapper">
+        <section id="content">
+         <!--  smooth scrolling biz goes in here -->
+         <div class="heading">
+          <p id="torugo">Torugo's</p>
+          <p id="lilith">lilith</p>
+         </div>
+       
+         <section class="image-grid container">
+          <!-- <div class="image_cont" data-speed="1">
+           <img data-speed="auto" src="https://i.pinimg.com/736x/82/cf/a9/82cfa941b8c699c6c9afda656573a4b2.jpg" alt="">
+          </div>
+          <div class="image_cont" data-speed="1.7">
+           <img data-speed="auto" src="https://hamonifusion.com.br/hamoni/wp-content/uploads/2018/03/drinks-3.jpg" alt="">
+          </div>
+          <div class="image_cont" data-speed="1.5">
+           <img data-speed="auto" src="https://www.papodebar.com/wp-content/uploads/2010/09/mulher-nua-taca-vinho.jpg" alt="">
+          </div> -->
+         </section>
+       
+       
+         <section class="v-center">
+          <div class="parallax-slab">
+           <video autoplay muted loop><source src="/src/coquetel2.mp4" type="video/mp4"></video>
+          </div>
+         </section>
+
+       
+         <section class="parallax-images container">
+          <div class="parallax-text">
+           <div class="flow content">
+            <h2>Victor Hugo (Torugo)</h2>
+            <p>O problema de tomar drinks, é querer provar todos e não se preocupar com as consequências do amanhã!</p>
+           </div>
+          </div>
+       
+          <div class="image_cont">
+           <img data-speed="auto" src="/src/torugo.png">
+          </div>
+          
+         </section>
+         <section class="staggered container">
+       
+            <div class="staggered_text">
+             <div class="flow content">
+              <h2>Brasileiro que não gosta de caipirinha tá sendo brasileiro errado!</h2>
+              <p>Coração magoado se cura com muito gelo, limão e vodka.</p>
+             </div>
+         
+            </div>
+         
+            <div class="staggered_demo">
+             <h3 id="split-stagger">proibidos...</h3>
+            </div>
+         
+           </section>
+       
+         <section id="produto" class="produto-container">
+            <div class="produtos">
+                <div class="card">
+                    <div class="card2" onclick="cardDescription()">
+                      <img src="/src/drinkMoscowMule.jpg">
+                      <h3>Moscow Mule</h3><br>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                      <img src="/src/drinkMaracuja.jpg">
+                        <h3>Maracujá Cremoso</h3>
+                        <!-- <p>Maracuja</p>
+                        <p>Vodca Smirnoff</p>
+                        <p>Xarope de Maracuja</p>
+                        <p>Espuma de maracujá</p>
+                        <p>Açucar</p>
+                        <p>Gelo</p> -->
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                      <img src="/src/drinkMorangoCremoso.jpg">
+                        <h3>Morango Cremoso</h3>
+                        <!-- <p>Morango</p>
+                        <p>Leite Condensado </p>
+                        <p>Creme de Leite</p>
+                        <p>Açucar</p>
+                        <p>Gelo</p> -->
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                      <img src="/src/drinkNegroni.jpg">
+                        <h3>Negroni</h3>
+                        <!-- <p>Gin Gordons</p>
+                        <p>Campari </p>
+                        <p>Vermute Tinto </p>
+                        <p>Gelo</p> -->
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card2">
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+       
+        <section class="contact adjust" id="contact">
+          <div class="title">
+              <h2>Contato</h2>
+          </div>
+          <div class="contactForm">
+              <form class="row" action="https://formsubmit.co/email" method="POST">
+                      <input type="text" name="name" placeholder="Nome" required>
+                      <input type="email" name="email" placeholder="Email" required>
+                  <div class="row2">
+                      <textarea name="message" placeholder="Digite sua mensagem..."></textarea>
+                  </div>
+                  <div class="row2">
+                      <button type="submit">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          Enviar
+                      </button>
+                  </div>
+             </form>
+          </div>
+      </section>
+
+
+      <!-- testeModal  -->
+      <section id="modal">
+        <div id="card">
+            <div id="head">
+              <img src="/src/drinkMoscowMule.jpg">
+              <div class="description">
+                <h2>Moscow Mule</h2>
+              <p>Limão Taiti </p>
+                      <p>Vodca Smirnoff</p>
+                      <p>Xarope de Gengibre</p>
+                      <p>Espuma de Gengibre</p>
+                      <p>Açucar</p>
+                      <p>Gelo</p>
+              </div>
+            </div>
+            <hr>
+            <div id="btns">
+                <a id="btnNot" onclick="closeAba()" >Voltar</a>
+            </div>
+        </div>
+      </section>
+    <!-- fimModal  -->
+
+      </section>
+    </div>
+
+
+    <button onclick="cadastroForm()">Cadastrar um novo drink</button>
+
+      <section id="sectionDrink" class="sectionDrink">
+        <div id="cardDrink">
+          <h1>Cadastro de Drinks</h1>
+          <form action="/create" method="post">
+            <div class="drinkName">
+              Nome do drink
+              <input type="text" name="drink" id="drink">
+            </div>
+            <div class="formDrink">
+                <div>
+                  <h2>Bebidas</h2>
+                  Nome da bebida
+                  <input type="text" name="alcohol.name" id="alcohol.name">
+                  Preço total da bebida
+                  <input type="number" name="alcohol.priceTotal" id="alcohol.price">
+                  <input type="number" name="alcohol.mlTotal" id="ml.price">
+                  <input type="number" name="alcohol.mlDrink" id="ml.mlDrink">
+                  <input type="number" name="alcohol.mlPrice" id="ml.mlPrice">
+                </div>
+                <div>
+                  <h2>Frutas</h2>
+                    Nome da fruta 1
+                    <input type="text" name="fruits.one.name" id="fruits.one.name">
+                    Preço do kg da fruta
+                    <input type="number" name="fruits.one.priceTotal" id="fruits.one.price">
+                    <input type="number" name="fruits.one.gramaTotal" id="fruits.one.gramaTotal">
+                    <input type="number" name="fruits.one.gramaDrink" id="fruits.one.gramaDrink">
+                    <input type="number" name="fruits.one.gramaPrice" id="fruits.one.gramaPrice">
+                    Nome da fruta 2
+                    <input type="text" name="fruits.two.name" id="fruits.two.name">
+                    Preço do kg da fruta
+                    <input type="number" name="fruits.two.priceTotal" id="fruits.two.price">
+                    <input type="number" name="fruits.two.gramaTotal" id="fruits.two..gramaTotal">
+                    <input type="number" name="fruits.two.gramaDrink" id="fruits.two..gramaDrink">
+                    <input type="number" name="fruits.two.gramaPrice" id="fruits.two..gramaPrice">
+                </div>
+                <div>
+                  <h2>Ingredientes</h2>
+                    Nome do ingrediente 1
+                    <input type="text" name="ingredient.one.name" id="ingredient.one.name">
+                    Preço 
+                    <input type="number" name="ingredient.one.priceTotal" id="ingredient.one.price">
+                    <input type="number" name="ingredient.one.qtdTotal" id="ingredient.one.qtdTotal">
+                    <input type="number" name="ingredient.one.qtdDrink" id="ingredient.one.qtdDrink">
+                    <input type="number" name="ingredient.one.qtdPrice" id="ingredient.one.qtdPrice">
+                    Nome do ingrediente 2
+                    <input type="text" name="ingredient.two.name" id="ingredient.two.name">
+                    Preço 
+                    <input type="number" name="ingredient.two.priceTotal" id="ingredient.two.price">
+                    <input type="number" name="ingredient.two.qtdTotal" id="ingredient.two.qtdTotal">
+                    <input type="number" name="ingredient.two.qtdDrink" id="ingredient.two.qtdDrink">
+                    <input type="number" name="ingredient.two.qtdPrice" id="ingredient.two.qtdPrice">
+                </div>
+                <div>
+                  <h2>Decorações</h2>
+                    Nome da Decoração
+                    <input type="text" name="decorations.name" id="decorations.name">
+                    Preço
+                    <input type="number" name="decorations.price" id="decorations.price">
+                    
+                </div>
+                <div>
+                  <h2>Outros</h2>
+                  Outros
+                  <input type="text" name="others.one.name" id="others.one.name">
+                  Preço
+                  <input type="text" name="others.one.priceTotal" id="others.one.price">
+                  <input type="number" name="others.one.qtdTotal" id="others.one.qtdTotal">
+                  <input type="number" name="others.one.qtdDrink" id="others.one.qtdDrink">
+                  <input type="number" name="others.one.qtdPrice" id="others.one.qtdPrice">
+                  Outros
+                  <input type="text" name="others.two.name" id="others.two.name">
+                  Preço
+                  <input type="text" name="others.two.priceTotal" id="others.two.price">
+                  <input type="number" name="others.two.qtdTotal" id="others.two.qtdTotal">
+                  <input type="number" name="others.two.qtdDrink" id="others.two.qtdDrink">
+                  <input type="number" name="others.two.qtdPrice" id="others.two.qtdPrice">
+                </div>
+                <div id="txtArea">
+                  <h2>Modo de Preparo</h2>
+                  <textarea type="text" name="comments" id="comments"></textarea>
+                </div>
+              </div>     
+          
+              <div id="btns">
+                <button id="btnYes" type="submit" onclick="closeAba()">Adicionar</button>
+              </div>
+              <div id="btns">
+                <a id="btnNot" onclick="closeAba()" >Voltar</a>
+              </div>
+          </form>
+        </div>
+      </section>
+
+      
+
+
+    <ul id="ulDoida" class="ulDoida">
+      <% drinkList.forEach((drink) => { %>
+        <li><%= drink.drink %></li>    
+        <li><%= drink.alcohol.name %></li>
+        <li><%= drink.alcohol.priceTotal %></li>
+        <li><%= drink.fruits.one.name %></li>
+        <li><%= drink.fruits.one.priceTotal %></li>
+        <li><%= drink.fruits.two.name %></li>
+        <li><%= drink.fruits.two.priceTotal %></li>
+        <li><%= drink.ingredient.one.name %></li>
+        <li><%= drink.ingredient.one.priceTotal %></li>
+        <li><%= drink.ingredient.two.name %></li>
+        <li><%= drink.ingredient.two.priceTotal %></li>
+        <li><%= drink.decorations.name %></li>
+        <li><%= drink.decorations.priceTotal %></li>
+        <li><%= drink.others.one.name %></li>
+        <li><%= drink.others.one.priceTotal %></li>
+        <li><%= drink.others.two.name %></li>
+        <li><%= drink.others.two.priceTotal %></li>
+        <li><%= drink.comments %></li>
+        <br><br>
+        <li>Valor total: <%= ((drink.alcohol.priceTotal / (drink.alcohol.mlTotal / drink.alcohol.mlDrink )) + 
+          (drink.fruits.one.priceTotal/ (drink.fruits.one.gramaTotal / drink.fruits.one.gramaDrink)) + 
+          (drink.ingredient.one.priceTotal/ (drink.ingredient.one.qtdTotal / drink.ingredient.one.qtdDrink)) + 
+          (drink.ingredient.two.priceTotal/ (drink.ingredient.two.qtdTotal / drink.ingredient.two.qtdDrink)) +
+          (drink.others.one.priceTotal/ (drink.others.one.qtdTotal / drink.others.one.qtdDrink)) + 
+          (drink.others.two.priceTotal/ (drink.others.two.qtdTotal / drink.others.two.qtdDrink ))).toFixed(2)
+           %> Reais</li>
+      <% }) %> 
+    </ul>
+
+       <script src="script.js"></script>
+
+       
+</body>
+</html>
